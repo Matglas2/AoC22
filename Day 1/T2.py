@@ -1,7 +1,4 @@
-
-#Part 2
-
-with open('input.txt', 'r') as f:
+with open('day 1\input.txt', 'r') as f:
     lines = f.readlines()
 
 count = int()
@@ -16,5 +13,5 @@ for food in lines:
 
 elves.sort(reverse = True)
 
-print(elves[0], elves[1], elves[2])
-print(elves[0] + elves[1] + elves[2])
+print('Part 1: ', elves[0])
+print('Part 2:',  elves[0] + elves[1] + elves[2])
